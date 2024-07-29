@@ -1,0 +1,140 @@
+<!DOCTYPE html> <!--Estou indicando que é um documento do tipo HTML-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luís Guerreiro">
+    <meta name="description" content="Minha primeira pagina Web -- Olá Mundo!!!">
+    <meta name="keywords" content="Pobreza,erradicação,familia">
+    <title>Família 75</title>
+</head>
+<body>
+   <h1>Primeira página da Família 75</h1> 
+   <h2>Vamos começar a aprender HTML5</h2>
+   <h6>Estou utilizando tamanhos de fontes</h6>
+   <strong>Frase Destacada</strong>
+   <h1>Listas em HTML5</h1>
+   <h2>Listas ordenadas</h2>
+   <ol type="I">
+        <li>Morango</li>
+        <li>Kiwi</li>
+        <li>Mamão
+            <ol type="i">
+                <li>Papaya</li>
+                <li>Formosa</li>
+            </ol>
+        </li>
+   </ol>
+   <h2>Lista não ordenada</h2>
+   <ul type="circle">
+        <li>Banana</li>
+        <li>Maçã
+            <ul type="square">
+                <li>Gala</li>
+                <li>Maçã Verde</li>
+            </ul>
+        </li>
+   </ul>
+   <h2>Lista de descrição</h2>
+   <dl>
+        <dt>Maracujá</dt>
+        <dd>É uma fruta muito azeda...</dd>
+        <dt>Abacaxi</dt>
+        <dd>É uma fruta bem ácida...</dd>
+   </dl>
+
+   <h2>Estudo para a utilização dos links</h2>
+   <ul>
+    <li><a href=".\ordenada.html">Lista ordenada</a></li>
+    <li><a href=".\naoOrdenada.html">Lista não ordenada</a></li>
+    <li><a href=".\listadescricao.html">Lista de descrição</a></li>
+    <li><a href="http://google.com" target="_blank">Para fazer pesquisas no GOOGLE</a></li>
+
+   </ul>
+
+   <h2>Definindo alguns termos técnicos</h2>
+   <ul>
+    <li><a href="#Info1">Informática</a></li>
+    <li><a href="#Computação">Ciência da Computação</a></li>
+   </ul>
+   <a name="Info1" title="Descrição de informática">
+    <h2>Informática</h2>
+   </a>
+   <p>
+    Informática é um termo usado para descrever o conjunto das ciências da informação, 
+estando incluídas neste grupo: a ciência da computação, a teoria da informação, o 
+processo de cálculo, a análise numérica e os métodos teóricos da representação dos
+conhecimentos e da modelagem dos problemas.
+   </p>
+   <p><a href="#">Voltar ao topo da página</a></p>
+
+   <a name="Computação" title="Ciência da Computação">
+    <h2>Ciência da Computação</h2>
+   </a>
+   <p>
+    Ciência da computação é a ciência que estuda as técnicas, metodologias e instrumentos 
+computacionais, que automatiza [...] e computação móvel que têm sido utilizadas por bilhões de 
+pessoas ao redor do globo.
+   </p>
+   <p><a href="#">Voltar ao topo da página</a></p>
+
+   <h2>Criando tabelas em HTML5</h2>
+   <table border="1" cellpading="10">
+    <tr>
+        <td>Primeira</td>
+        <td>Linha</td>
+    </tr>
+    <tr>
+        <td>Segunda</td>
+        <td>Linha</td>
+    </tr>
+   </table>
+
+   <h2>Tabela com cabeçalho</h2>
+   <table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Pais</th>
+    </tr>
+    <tr>
+        <td>Bill Gates</td>
+        <td>19974345677</td>
+        <td>EUA</td>
+    </tr>
+   </table>
+   <br><br>
+   <table border="1">
+    <tr>
+        <th>Nome</th>
+        <td>Bill Gates</td>
+    </tr>
+    <tr>
+        <th>Telefone</th>
+        <td>19974345677</td>
+    </tr>
+    <tr>
+        <th>Pais</th>
+        <td>EUA</td>
+    </tr>
+   </table>
+
+   <h2>Trabalhando com imagens</h2>
+   <div id="imagem1">
+    <img src="./imagens/copacabana.png">
+    <img src="./imagens/sol.jpg" height="120" width="140">
+   </div>
+
+   <form action="mailto:alguem@exemplo.com" method="post" enctype="multipart/form-data">
+        Nome: <br>
+        <input type="text" name="nome" value="seu nome"><br>
+        E-mail: <br>
+        <input type="email" name="mail" value="seu e-mail"><br>
+        Comentário: <br>
+        <textarea rows="4" cols="50" placeholder="seu comentário"></textarea><br>
+        Escolha o seu genero: <br>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="genero" id="masc"
+   </form>
+</body>
+</html>
